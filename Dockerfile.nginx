@@ -1,4 +1,0 @@
-FROM richarvey/nginx-php-fpm:latest
-COPY index.php /var/www/html/index.php
-ENV PORT=80
-EXPOSE 80
